@@ -44,4 +44,6 @@ fw_setenv wlandev rtl8811cu-generic
 #fw_setenv wlanssid Router
 #fw_setenv wlanpass 12345678
 
+fw_setenv ptz_support ssc335de-xiaomi-mjsxj06cm-a04
+
 exit 0
