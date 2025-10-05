@@ -1,5 +1,8 @@
 name: Build
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: '0 3 * * *'
   workflow_dispatch:
@@ -20,7 +23,7 @@ jobs:
       fail-fast: false
       matrix:
         platform:
-          - ssc335de_lite_xiaomi-mjsxj06cm-a04
+          - ssc335de_ultimate_xiaomi-mjsxj06cm-a04
 
     steps:
       - name: Checkout source
