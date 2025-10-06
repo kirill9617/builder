@@ -5,7 +5,7 @@
 #
 # Set custom upgrade url
 #
-fw_setenv upgrade 'https://github.com/kirill9617/builder/releases/download/latest/ssc335de_ultimate-xiaomi-mjsxj06cm-a04-nor.tgz'
+fw_setenv upgrade 'https://github.com/kirill9617/builder/releases/download/latest/ssc335de_ultimate_xiaomi-mjsxj06cm-a04-nor.tgz'
 #
 #
 # Set sensor config
